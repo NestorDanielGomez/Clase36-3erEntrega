@@ -1,0 +1,237 @@
+{
+  message: 'Error en servidor: Error: listen EACCES: permission denied 3000,',
+  level: 'error',
+  timestamp: '2022-07-20T10:12:29.849Z'
+}
+{
+  message: 'Error en servidor: Error: listen EACCES: permission denied 5000,',
+  level: 'error',
+  timestamp: '2022-07-20T10:13:19.840Z'
+}
+{
+  message: 'Error en servidor: Error: listen EACCES: permission denied 5000,',
+  level: 'error',
+  timestamp: '2022-07-20T10:25:51.657Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '"name": "Espumantes"',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2022-07-20T21:25:37.666Z'
+}
+{ level: 'error', timestamp: '2022-07-20T21:42:25.183Z' }
+{ level: 'error', timestamp: '2022-07-20T21:43:02.436Z' }
+{ level: 'error', timestamp: '2022-07-20T21:43:04.410Z' }
+{ level: 'error', timestamp: '2022-07-20T21:43:56.992Z' }
+{ level: 'error', timestamp: '2022-07-20T21:44:55.804Z' }
+{ level: 'error', timestamp: '2022-07-20T21:45:42.310Z' }
+{ level: 'error', timestamp: '2022-07-20T21:46:31.273Z' }
+{ level: 'error', timestamp: '2022-07-20T21:47:57.811Z' }
+{ level: 'error', timestamp: '2022-07-20T21:56:08.117Z' }
+{ level: 'error', timestamp: '2022-07-20T21:56:23.398Z' }
+{ level: 'error', timestamp: '2022-07-20T21:58:19.911Z' }
+{ level: 'error', timestamp: '2022-07-20T21:58:26.587Z' }
+{ level: 'error', timestamp: '2022-07-20T21:58:53.110Z' }
+{
+  messageFormat: undefined,
+  stringValue: '"62d878feef3617aa3ede6ff05"',
+  kind: 'ObjectId',
+  value: '62d878feef3617aa3ede6ff05',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\bson\src\error.ts:16:5)
+      at new ObjectId (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1589:20)
+      at cast (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\query.js:5202:12),
+  valueType: 'string',
+  level: 'error',
+  timestamp: '2022-07-20T22:15:38.933Z'
+}
+{ level: 'error', timestamp: '2022-07-20T22:19:23.249Z' }
+{ level: 'error', timestamp: '2022-07-20T22:47:42.967Z' }
+{ level: 'error', timestamp: '2022-07-20T22:47:48.479Z' }
+{ level: 'error', timestamp: '2022-07-20T22:47:49.470Z' }
+{ level: 'error', timestamp: '2022-07-20T22:47:57.580Z' }
+{ level: 'error', timestamp: '2022-07-20T22:49:32.380Z' }
+{ level: 'error', timestamp: '2022-07-20T22:51:42.065Z' }
+{
+  errors: {
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1329:13)
+        at SchemaString.SchemaType.doValidate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1313:7)
+        at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'varietals validation failed',
+  level: 'error',
+  timestamp: '2022-07-20T22:52:15.934Z'
+}
+{
+  errors: {
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1329:13)
+        at SchemaString.SchemaType.doValidate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1313:7)
+        at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'varietals validation failed',
+  level: 'error',
+  timestamp: '2022-07-20T22:53:10.258Z'
+}
+{ level: 'error', timestamp: '2022-07-21T00:10:04.241Z' }
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: null },
+  level: 'error',
+  timestamp: '2022-07-21T00:35:45.342Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: null },
+  level: 'error',
+  timestamp: '2022-07-21T00:36:05.626Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: null },
+  level: 'error',
+  timestamp: '2022-07-21T00:36:42.179Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: null },
+  level: 'error',
+  timestamp: '2022-07-21T00:41:41.985Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: null },
+  level: 'error',
+  timestamp: '2022-07-21T00:50:59.072Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: null },
+  level: 'error',
+  timestamp: '2022-07-21T00:52:24.641Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  errors: {
+    age: ValidatorError: Path `age` (10) is less than minimum allowed value (18).
+        at validate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1313:7)
+        at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `age` (10) is less than minimum allowed value (18).',
+        type: 'min',
+        min: 18,
+        path: 'age',
+        value: 10
+      },
+      kind: 'min',
+      path: 'age',
+      value: 10,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'users validation failed',
+  level: 'error',
+  timestamp: '2022-07-21T00:57:55.182Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  timestamp: '2022-07-21T01:33:08.770Z'
+}
+{ level: 'error', timestamp: '2022-07-21T01:34:43.333Z' }
+{ level: 'error', timestamp: '2022-07-21T01:35:13.096Z' }
+{ level: 'error', timestamp: '2022-07-21T01:36:01.383Z' }
+{ level: 'error', timestamp: '2022-07-21T01:56:26.038Z' }
+{
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-07-21T02:48:52.669Z'
+}
+{
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-07-21T03:01:50.218Z'
+}
+{
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-07-21T03:02:43.174Z'
+}
+{
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-07-21T03:04:23.549Z'
+}

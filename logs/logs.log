@@ -1,0 +1,4442 @@
+{
+  message: 'Error en servidor: Error: listen EACCES: permission denied 3000,',
+  level: 'error',
+  timestamp: '2022-07-20T10:12:29.849Z'
+}
+{
+  message: 'Error en servidor: Error: listen EACCES: permission denied 5000,',
+  level: 'error',
+  timestamp: '2022-07-20T10:13:19.840Z'
+}
+{
+  message: 'Error en servidor: Error: listen EACCES: permission denied 5000,',
+  level: 'error',
+  timestamp: '2022-07-20T10:25:51.657Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T10:28:38.651Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T18:17:36.980Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T21:12:54.486Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '"name": "Espumantes"',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2022-07-20T21:25:37.666Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T21:42:22.394Z'
+}
+{ level: 'error', timestamp: '2022-07-20T21:42:25.183Z' }
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T21:42:34.795Z'
+}
+{ level: 'error', timestamp: '2022-07-20T21:43:02.436Z' }
+{ level: 'error', timestamp: '2022-07-20T21:43:04.410Z' }
+{ level: 'error', timestamp: '2022-07-20T21:43:56.992Z' }
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T21:44:49.207Z'
+}
+{ level: 'error', timestamp: '2022-07-20T21:44:55.804Z' }
+{ level: 'error', timestamp: '2022-07-20T21:45:42.310Z' }
+{ level: 'error', timestamp: '2022-07-20T21:46:31.273Z' }
+{ level: 'error', timestamp: '2022-07-20T21:47:57.811Z' }
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T21:48:28.561Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T21:56:04.629Z'
+}
+{ level: 'error', timestamp: '2022-07-20T21:56:08.117Z' }
+{ level: 'error', timestamp: '2022-07-20T21:56:23.398Z' }
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T21:57:35.566Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T21:57:49.896Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T21:58:18.533Z'
+}
+{ level: 'error', timestamp: '2022-07-20T21:58:19.911Z' }
+{ level: 'error', timestamp: '2022-07-20T21:58:26.587Z' }
+{ level: 'error', timestamp: '2022-07-20T21:58:53.110Z' }
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T21:59:55.380Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:00:09.901Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"62d878feef3617aa3ede6ff05"',
+  kind: 'ObjectId',
+  value: '62d878feef3617aa3ede6ff05',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\bson\src\error.ts:16:5)
+      at new ObjectId (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1589:20)
+      at cast (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\query.js:5202:12),
+  valueType: 'string',
+  level: 'error',
+  timestamp: '2022-07-20T22:15:38.933Z'
+}
+{ level: 'error', timestamp: '2022-07-20T22:19:23.249Z' }
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:19:38.843Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:30:38.043Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:33:34.895Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:33:46.947Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:34:00.838Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:35:00.219Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:35:07.437Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:35:27.409Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:35:32.620Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:41:23.352Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:42:41.786Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:45:01.014Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:45:10.019Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:45:20.914Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:46:22.118Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:47:36.984Z'
+}
+{ level: 'error', timestamp: '2022-07-20T22:47:42.967Z' }
+{ level: 'error', timestamp: '2022-07-20T22:47:48.479Z' }
+{ level: 'error', timestamp: '2022-07-20T22:47:49.470Z' }
+{ level: 'error', timestamp: '2022-07-20T22:47:57.580Z' }
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:48:40.011Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:48:46.384Z'
+}
+{ level: 'error', timestamp: '2022-07-20T22:49:32.380Z' }
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:51:12.562Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:51:33.748Z'
+}
+{ level: 'error', timestamp: '2022-07-20T22:51:42.065Z' }
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:52:08.911Z'
+}
+{
+  errors: {
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1329:13)
+        at SchemaString.SchemaType.doValidate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1313:7)
+        at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'varietals validation failed',
+  level: 'error',
+  timestamp: '2022-07-20T22:52:15.934Z'
+}
+{
+  errors: {
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1329:13)
+        at SchemaString.SchemaType.doValidate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1313:7)
+        at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'varietals validation failed',
+  level: 'error',
+  timestamp: '2022-07-20T22:53:10.258Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T22:53:31.490Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T23:07:21.489Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T23:08:35.073Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T23:08:44.538Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T23:13:00.500Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T23:15:19.857Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T23:19:50.606Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T23:25:28.404Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T23:27:04.971Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T23:27:20.622Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T23:27:37.339Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T23:30:36.475Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T23:31:05.551Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-20T23:31:54.782Z'
+}
+{ level: 'error', timestamp: '2022-07-21T00:10:04.241Z' }
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T00:11:08.006Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T00:12:00.587Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T00:12:20.453Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T00:12:33.330Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T00:21:45.987Z'
+}
+{
+  message: false,
+  level: 'info',
+  timestamp: '2022-07-21T00:21:45.989Z'
+}
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T00:21:45.990Z'
+}
+{
+  message: undefined,
+  level: 'info',
+  timestamp: '2022-07-21T00:21:45.991Z'
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T00:34:46.195Z'
+}
+{
+  message: {
+    email: 'nestordanielgomez@gmail.com',
+    password: 'nestordanielgomez',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T00:34:46.196Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T00:34:50.371Z'
+}
+{
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        'address.city': 'require',
+        'address.street': 'require',
+        age: 'require',
+        lastName: 'require',
+        firstName: 'require',
+        password: 'require',
+        email: 'require'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {},
+        modify: {},
+        require: {
+          'address.city': true,
+          'address.street': true,
+          age: true,
+          lastName: true,
+          firstName: true,
+          password: true,
+          email: true
+        }
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ],
+      map: [Function (anonymous)]
+    },
+    strictMode: true,
+    op: null,
+    saving: null,
+    '$versionError': null,
+    saveOptions: null,
+    validating: null,
+    validationError: undefined,
+    cachedRequired: {},
+    backup: {
+      activePaths: {
+        modify: {
+          email: true,
+          firstName: true,
+          lastName: true,
+          age: true,
+          admin: true,
+          address: true,
+          createdAt: true,
+          updatedAt: true,
+          password: true
+        },
+        default: { _id: true }
+      },
+      validationError: null,
+      errors: undefined
+    },
+    inserting: true,
+    savedState: {}
+  },
+  '$isNew': false,
+  _doc: {
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$uySzRtTdTM3XfgktBigQH.7pGx1ummj4a0H8LtIM5iE2OqPiFrg4i',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d89f2616ea9337efccc938"),
+    createdAt: 2022-07-21T00:34:46.257Z,
+    updatedAt: 2022-07-21T00:34:46.257Z
+  },
+  '$errors': undefined,
+  level: 'info',
+  message: null,
+  timestamp: '2022-07-21T00:34:50.372Z'
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T00:35:45.041Z'
+}
+{
+  message: {
+    email: 'leticiazanel@correo.com',
+    password: 'leticiazanel',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T00:35:45.042Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T00:35:45.256Z'
+}
+{
+  level: 'info',
+  message: MongoServerError: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\operations\insert.ts:85:25
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection_pool.ts:489:13
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\sdam\server.ts:370:13
+      at handleOperationResult (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\sdam\server.ts:541:14)
+      at Connection.onMessage (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:462:5)
+      at MessageStream.<anonymous> (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:268:56)
+      at MessageStream.emit (node:events:527:28)
+      at MessageStream.emit (node:domain:475:12)
+      at processIncomingData (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:194:14)
+      at MessageStream._write (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:71:5) {
+    index: 0,
+    code: 11000,
+    keyPattern: { username: 1 },
+    keyValue: { username: null },
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  timestamp: '2022-07-21T00:35:45.257Z'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: null },
+  level: 'error',
+  timestamp: '2022-07-21T00:35:45.342Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T00:36:04.658Z'
+}
+{
+  message: {
+    email: 'leticiazanel@correo.com',
+    password: 'leticiazanel',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T00:36:04.659Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T00:36:05.620Z'
+}
+{
+  level: 'info',
+  message: MongoServerError: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\operations\insert.ts:85:25
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection_pool.ts:489:13
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\sdam\server.ts:370:13
+      at handleOperationResult (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\sdam\server.ts:541:14)
+      at Connection.onMessage (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:462:5)
+      at MessageStream.<anonymous> (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:268:56)
+      at MessageStream.emit (node:events:527:28)
+      at MessageStream.emit (node:domain:475:12)
+      at processIncomingData (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:194:14)
+      at MessageStream._write (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:71:5) {
+    index: 0,
+    code: 11000,
+    keyPattern: { username: 1 },
+    keyValue: { username: null },
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  timestamp: '2022-07-21T00:36:05.621Z'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: null },
+  level: 'error',
+  timestamp: '2022-07-21T00:36:05.626Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T00:36:41.990Z'
+}
+{
+  message: {
+    email: 'leticiazanel@correo.com',
+    password: 'leticiazanel',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T00:36:41.992Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T00:36:42.172Z'
+}
+{
+  level: 'info',
+  message: MongoServerError: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\operations\insert.ts:85:25
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection_pool.ts:489:13
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\sdam\server.ts:370:13
+      at handleOperationResult (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\sdam\server.ts:541:14)
+      at Connection.onMessage (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:462:5)
+      at MessageStream.<anonymous> (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:268:56)
+      at MessageStream.emit (node:events:527:28)
+      at MessageStream.emit (node:domain:475:12)
+      at processIncomingData (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:194:14)
+      at MessageStream._write (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:71:5) {
+    index: 0,
+    code: 11000,
+    keyPattern: { username: 1 },
+    keyValue: { username: null },
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  timestamp: '2022-07-21T00:36:42.173Z'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: null },
+  level: 'error',
+  timestamp: '2022-07-21T00:36:42.179Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'LOGINNN',
+  level: 'info',
+  timestamp: '2022-07-21T00:41:07.629Z'
+}
+{
+  message: 'SALIO TODO BIEN',
+  level: 'info',
+  timestamp: '2022-07-21T00:41:07.847Z'
+}
+{
+  message: 'Se Ejecuta el serializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T00:41:07.904Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T00:41:41.741Z'
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T00:41:41.792Z'
+}
+{
+  message: {
+    email: 'leticiazanel@correo.com',
+    password: 'leticiazanel',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T00:41:41.795Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T00:41:41.980Z'
+}
+{
+  level: 'info',
+  message: MongoServerError: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\operations\insert.ts:85:25
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection_pool.ts:489:13
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\sdam\server.ts:370:13
+      at handleOperationResult (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\sdam\server.ts:541:14)
+      at Connection.onMessage (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:462:5)
+      at MessageStream.<anonymous> (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:268:56)
+      at MessageStream.emit (node:events:527:28)
+      at MessageStream.emit (node:domain:475:12)
+      at processIncomingData (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:194:14)
+      at MessageStream._write (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:71:5) {
+    index: 0,
+    code: 11000,
+    keyPattern: { username: 1 },
+    keyValue: { username: null },
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  timestamp: '2022-07-21T00:41:41.981Z'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: null },
+  level: 'error',
+  timestamp: '2022-07-21T00:41:41.985Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T00:49:14.412Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T00:49:22.759Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T00:49:35.975Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T00:50:58.726Z'
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T00:50:58.782Z'
+}
+{
+  message: {
+    email: 'leticiazanel@correo.com',
+    password: 'leticiazanel',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T00:50:58.785Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T00:50:58.987Z'
+}
+{
+  level: 'info',
+  message: MongoServerError: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\operations\insert.ts:85:25
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection_pool.ts:489:13
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\sdam\server.ts:370:13
+      at handleOperationResult (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\sdam\server.ts:541:14)
+      at Connection.onMessage (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:462:5)
+      at MessageStream.<anonymous> (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:268:56)
+      at MessageStream.emit (node:events:527:28)
+      at MessageStream.emit (node:domain:475:12)
+      at processIncomingData (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:194:14)
+      at MessageStream._write (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:71:5) {
+    index: 0,
+    code: 11000,
+    keyPattern: { username: 1 },
+    keyValue: { username: null },
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  timestamp: '2022-07-21T00:50:58.989Z'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: null },
+  level: 'error',
+  timestamp: '2022-07-21T00:50:59.072Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T00:51:41.938Z'
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T00:51:41.993Z'
+}
+{
+  message: {
+    email: 'leticiazanel@correo.com',
+    password: 'leticiazanel',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T00:51:41.994Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T00:51:44.045Z'
+}
+{
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        'address.city': 'require',
+        'address.street': 'require',
+        age: 'require',
+        lastName: 'require',
+        firstName: 'require',
+        password: 'require',
+        email: 'require'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {},
+        modify: {},
+        require: {
+          'address.city': true,
+          'address.street': true,
+          age: true,
+          lastName: true,
+          firstName: true,
+          password: true,
+          email: true
+        }
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ],
+      map: [Function (anonymous)]
+    },
+    strictMode: true,
+    op: null,
+    saving: null,
+    '$versionError': null,
+    saveOptions: null,
+    validating: null,
+    validationError: undefined,
+    cachedRequired: {},
+    backup: {
+      activePaths: {
+        modify: {
+          email: true,
+          firstName: true,
+          lastName: true,
+          age: true,
+          admin: true,
+          address: true,
+          createdAt: true,
+          updatedAt: true,
+          password: true
+        },
+        default: { _id: true }
+      },
+      validationError: null,
+      errors: undefined
+    },
+    inserting: true,
+    savedState: {}
+  },
+  '$isNew': false,
+  _doc: {
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$sBs9q26Hhxv/2j0z7i64p.Fd848G6ugmjcWRqIW1YNbvQwGOajcBO',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a31e6ea50bec36fbfe88"),
+    createdAt: 2022-07-21T00:51:42.051Z,
+    updatedAt: 2022-07-21T00:51:42.051Z
+  },
+  '$errors': undefined,
+  level: 'info',
+  message: null,
+  timestamp: '2022-07-21T00:51:44.047Z'
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T00:52:23.818Z'
+}
+{
+  message: {
+    email: 'nestordanielgomez@gmail.com',
+    password: 'nestordanielgomez',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T00:52:23.819Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T00:52:24.634Z'
+}
+{
+  level: 'info',
+  message: MongoServerError: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\operations\insert.ts:85:25
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection_pool.ts:489:13
+      at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\sdam\server.ts:370:13
+      at handleOperationResult (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\sdam\server.ts:541:14)
+      at Connection.onMessage (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:462:5)
+      at MessageStream.<anonymous> (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\connection.ts:268:56)
+      at MessageStream.emit (node:events:527:28)
+      at MessageStream.emit (node:domain:475:12)
+      at processIncomingData (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:194:14)
+      at MessageStream._write (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\node_modules\mongodb\src\cmap\message_stream.ts:71:5) {
+    index: 0,
+    code: 11000,
+    keyPattern: { username: 1 },
+    keyValue: { username: null },
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  timestamp: '2022-07-21T00:52:24.635Z'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: null },
+  level: 'error',
+  timestamp: '2022-07-21T00:52:24.641Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T00:57:04.285Z'
+}
+{
+  message: {
+    email: 'nestordanielgomez@gmail.com',
+    password: 'nestordanielgomez',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T00:57:04.287Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T00:57:06.738Z'
+}
+{
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        'address.city': 'require',
+        'address.street': 'require',
+        age: 'require',
+        lastName: 'require',
+        firstName: 'require',
+        password: 'require',
+        email: 'require'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {},
+        modify: {},
+        require: {
+          'address.city': true,
+          'address.street': true,
+          age: true,
+          lastName: true,
+          firstName: true,
+          password: true,
+          email: true
+        }
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ],
+      map: [Function (anonymous)]
+    },
+    strictMode: true,
+    op: null,
+    saving: null,
+    '$versionError': null,
+    saveOptions: null,
+    validating: null,
+    validationError: undefined,
+    cachedRequired: {},
+    backup: {
+      activePaths: {
+        modify: {
+          email: true,
+          firstName: true,
+          lastName: true,
+          age: true,
+          admin: true,
+          address: true,
+          createdAt: true,
+          updatedAt: true,
+          password: true
+        },
+        default: { _id: true }
+      },
+      validationError: null,
+      errors: undefined
+    },
+    inserting: true,
+    savedState: {}
+  },
+  '$isNew': false,
+  _doc: {
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  '$errors': undefined,
+  level: 'info',
+  message: null,
+  timestamp: '2022-07-21T00:57:06.744Z'
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T00:57:55.038Z'
+}
+{
+  message: {
+    email: 'bautista@bgmail.com',
+    password: 'bautista',
+    firstName: 'Bautista',
+    lastName: 'Gomez Zanel',
+    age: 10,
+    admin: false,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T00:57:55.039Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T00:57:55.168Z'
+}
+{
+  level: 'info',
+  message: Error: users validation failed: age: Path `age` (10) is less than minimum allowed value (18).
+      at ValidationError.inspect (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:782:19)
+      at formatProperty (node:internal/util/inspect:1819:11)
+      at formatRaw (node:internal/util/inspect:1030:9)
+      at formatValue (node:internal/util/inspect:817:10)
+      at inspect (node:internal/util/inspect:347:10)
+      at Format.transform (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\readable-stream\lib\_stream_transform.js:177:10) {
+    errors: {
+      age: ValidatorError: Path `age` (10) is less than minimum allowed value (18).
+          at validate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1329:13)
+          at SchemaNumber.SchemaType.doValidate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1313:7)
+          at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\document.js:2794:18
+          at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `age` (10) is less than minimum allowed value (18).',
+          type: 'min',
+          min: 18,
+          path: 'age',
+          value: 10
+        },
+        kind: 'min',
+        path: 'age',
+        value: 10,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'users validation failed'
+  },
+  timestamp: '2022-07-21T00:57:55.171Z'
+}
+{
+  errors: {
+    age: ValidatorError: Path `age` (10) is less than minimum allowed value (18).
+        at validate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\schematype.js:1313:7)
+        at D:\CoderHouse\Curso4-Backend\Clase36-3erEntrega\node_modules\mongoose\lib\document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `age` (10) is less than minimum allowed value (18).',
+        type: 'min',
+        min: 18,
+        path: 'age',
+        value: 10
+      },
+      kind: 'min',
+      path: 'age',
+      value: 10,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'users validation failed',
+  level: 'error',
+  timestamp: '2022-07-21T00:57:55.182Z'
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T00:58:08.089Z'
+}
+{
+  message: {
+    email: 'bautista@bgmail.com',
+    password: 'bautista',
+    firstName: 'Bautista',
+    lastName: 'Gomez Zanel',
+    age: 18,
+    admin: false,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T00:58:08.090Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T00:58:10.304Z'
+}
+{
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        'address.city': 'require',
+        'address.street': 'require',
+        age: 'require',
+        lastName: 'require',
+        firstName: 'require',
+        password: 'require',
+        email: 'require'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {},
+        modify: {},
+        require: {
+          'address.city': true,
+          'address.street': true,
+          age: true,
+          lastName: true,
+          firstName: true,
+          password: true,
+          email: true
+        }
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ],
+      map: [Function (anonymous)]
+    },
+    strictMode: true,
+    op: null,
+    saving: null,
+    '$versionError': null,
+    saveOptions: null,
+    validating: null,
+    validationError: undefined,
+    cachedRequired: {},
+    backup: {
+      activePaths: {
+        modify: {
+          email: true,
+          firstName: true,
+          lastName: true,
+          age: true,
+          admin: true,
+          address: true,
+          createdAt: true,
+          updatedAt: true,
+          password: true
+        },
+        default: { _id: true }
+      },
+      validationError: null,
+      errors: undefined
+    },
+    inserting: true,
+    savedState: {}
+  },
+  '$isNew': false,
+  _doc: {
+    email: 'bautista@bgmail.com',
+    password: '$2b$10$NLCe/3r5Ax.6ba2iHOqZGelLldR4o4PpbNIMEgs/rVrEng56z44be',
+    firstName: 'Bautista',
+    lastName: 'Gomez Zanel',
+    age: 18,
+    admin: false,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4a06ea50bec36fbfe97"),
+    createdAt: 2022-07-21T00:58:08.148Z,
+    updatedAt: 2022-07-21T00:58:08.148Z
+  },
+  '$errors': undefined,
+  level: 'info',
+  message: null,
+  timestamp: '2022-07-21T00:58:10.305Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T00:59:18.842Z'
+}
+{
+  message: 'LOGINNN',
+  level: 'info',
+  timestamp: '2022-07-21T00:59:44.676Z'
+}
+{
+  message: 'SALIO TODO BIEN',
+  level: 'info',
+  timestamp: '2022-07-21T00:59:44.818Z'
+}
+{
+  message: 'Se Ejecuta el serializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T00:59:44.877Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T00:59:59.546Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T00:59:59.707Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T00:59:59.709Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T00:59:59.709Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T00:59:59.712Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:02:48.476Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:03:36.662Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:03:45.105Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:04:04.536Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:04:28.325Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:04:53.329Z'
+}
+{
+  message: 'LOGINNN',
+  level: 'info',
+  timestamp: '2022-07-21T01:04:53.605Z'
+}
+{
+  message: 'SALIO TODO BIEN',
+  level: 'info',
+  timestamp: '2022-07-21T01:04:53.973Z'
+}
+{
+  message: 'Se Ejecuta el serializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:04:54.217Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:05:10.138Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:05:10.240Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:05:10.241Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:05:10.242Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:05:10.243Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:05:21.183Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:05:21.254Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:05:21.255Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:05:21.256Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:05:21.256Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:20.850Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:25.622Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:25.677Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:06:25.678Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:25.678Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:06:25.679Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:28.685Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:28.744Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:06:28.745Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:28.745Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:06:28.746Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:30.622Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:30.684Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:06:30.685Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:30.685Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:06:30.686Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:31.983Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:32.054Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:06:32.055Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:32.056Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:06:32.059Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:33.517Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:33.578Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:06:33.580Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:06:33.582Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:06:33.583Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:10.875Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:10.967Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:29:10.968Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:10.968Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:29:10.969Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:25.784Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:25.838Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:29:25.840Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:25.840Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:29:25.841Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:30.299Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:30.363Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:29:30.365Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:30.365Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:29:30.366Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:45.247Z'
+}
+{
+  message: 'LOGINNN',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:45.304Z'
+}
+{
+  message: 'SALIO TODO BIEN',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:45.443Z'
+}
+{
+  message: 'Se Ejecuta el serializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:45.497Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:54.320Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:54.371Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:29:54.372Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:29:54.372Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:29:54.374Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:30:00.049Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:30:00.114Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:30:00.115Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:30:00.115Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:30:00.118Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:30:04.392Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:30:04.561Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:30:04.562Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:30:04.562Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:30:04.563Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:33:02.801Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:33:02.855Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:33:02.856Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:33:02.857Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:33:02.857Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:33:08.695Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:33:08.754Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:33:08.755Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:33:08.756Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:33:08.756Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  timestamp: '2022-07-21T01:33:08.770Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:34:43.224Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:34:43.275Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:34:43.276Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:34:43.276Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:34:43.277Z'
+}
+{ level: 'error', timestamp: '2022-07-21T01:34:43.333Z' }
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:35:12.981Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:35:13.037Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:35:13.038Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:35:13.038Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:35:13.039Z'
+}
+{ level: 'error', timestamp: '2022-07-21T01:35:13.096Z' }
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:36:01.267Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:36:01.326Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:36:01.327Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:36:01.327Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:36:01.328Z'
+}
+{ level: 'error', timestamp: '2022-07-21T01:36:01.383Z' }
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:40:25.224Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:40:25.278Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:40:25.280Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:40:25.281Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:40:25.282Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:40:30.466Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:40:37.454Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:40:37.506Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:40:37.507Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:40:37.508Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:40:37.509Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:40:57.646Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:40:57.725Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:40:57.727Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:40:57.727Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:40:57.728Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:41:45.159Z'
+}
+{
+  message: 'LOGINNN',
+  level: 'info',
+  timestamp: '2022-07-21T01:41:45.209Z'
+}
+{
+  message: 'SALIO TODO BIEN',
+  level: 'info',
+  timestamp: '2022-07-21T01:41:45.337Z'
+}
+{
+  message: 'Se Ejecuta el serializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:41:45.506Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:41:51.984Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:41:52.043Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:41:52.044Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:41:52.044Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:41:52.047Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:42:01.231Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:42:01.458Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:42:01.493Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:42:01.580Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:42:01.608Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:44:57.662Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:45:07.953Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:45:08.007Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:45:08.008Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:45:08.009Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:45:08.009Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:45:16.536Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:45:16.599Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:45:16.601Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:45:16.601Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:45:16.602Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:45:30.461Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:45:37.216Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:45:37.272Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:45:37.274Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:45:37.274Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:45:37.275Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:45:58.929Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:45:58.982Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:45:58.982Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:45:58.983Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:45:58.986Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:46:36.201Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:46:45.620Z'
+}
+{
+  message: 'LOGINNN',
+  level: 'info',
+  timestamp: '2022-07-21T01:46:45.676Z'
+}
+{
+  message: 'SALIO TODO BIEN',
+  level: 'info',
+  timestamp: '2022-07-21T01:46:45.803Z'
+}
+{
+  message: 'Se Ejecuta el serializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:46:45.952Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:46:56.488Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:46:56.576Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:46:56.577Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:46:56.577Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:46:56.578Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:47:06.327Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:47:06.380Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:47:06.381Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:47:06.382Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:47:06.383Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:47:15.380Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:47:19.720Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:47:19.774Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:47:19.774Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:47:19.775Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:47:19.776Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:47:29.923Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:47:29.976Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:47:29.979Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:47:29.979Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:47:29.980Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:48:05.012Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:48:31.179Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:48:31.269Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:48:31.270Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:48:31.270Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:48:31.271Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:48:54.719Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:48:54.772Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:48:54.773Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:48:54.774Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:48:54.774Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:48:58.737Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:48:58.792Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:48:58.793Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:48:58.793Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:48:58.794Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:51:54.052Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:52:40.394Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:52:40.449Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:52:40.450Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:52:40.450Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:52:40.451Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:52:45.934Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:52:49.621Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:52:49.671Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:52:49.672Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:52:49.673Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:52:49.673Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:53:14.013Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:53:33.948Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:53:34.002Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:53:34.003Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:53:34.003Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:53:34.005Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T01:53:57.884Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:54:17.883Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:54:31.164Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:54:31.326Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:54:31.329Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:54:31.330Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:54:31.331Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:54:42.648Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:54:42.823Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:54:42.824Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:54:42.825Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:54:42.826Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:08.373Z'
+}
+{
+  message: 'LOGINNN',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:08.539Z'
+}
+{
+  message: 'SALIO TODO BIEN',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:08.796Z'
+}
+{
+  message: 'Se Ejecuta el serializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:08.850Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:14.943Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:15.109Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:55:15.110Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:15.111Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:55:15.112Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:16.914Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:17.087Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:55:17.088Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:17.090Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:55:17.090Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:21.833Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:22.004Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:55:22.005Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:22.005Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:55:22.006Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:27.269Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:27.439Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:55:27.441Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:55:27.442Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:55:27.443Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:56:25.448Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:56:25.634Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:56:25.635Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:56:25.637Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:56:25.638Z'
+}
+{ level: 'error', timestamp: '2022-07-21T01:56:26.038Z' }
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T01:56:35.744Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T01:56:35.932Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T01:56:35.933Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T01:56:35.934Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T01:56:35.936Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T02:01:17.452Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:02:24.913Z'
+}
+{
+  message: 'LOGINNN',
+  level: 'info',
+  timestamp: '2022-07-21T02:02:25.091Z'
+}
+{
+  message: 'SALIO TODO BIEN',
+  level: 'info',
+  timestamp: '2022-07-21T02:02:25.338Z'
+}
+{
+  message: 'Se Ejecuta el serializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:02:25.400Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:02:39.450Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:02:39.614Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:02:39.615Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:02:39.616Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:02:39.618Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:02:41.183Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:02:41.351Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:02:41.354Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:02:41.355Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:02:41.356Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:02:53.837Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:02:54.021Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:02:54.022Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:02:54.024Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:02:54.026Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:03:02.365Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:03:26.379Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:03:26.557Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:03:26.558Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:03:26.558Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:03:26.559Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:03:33.319Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:03:40.188Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T02:06:30.095Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T02:28:08.400Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:28:09.891Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:28:10.073Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:28:10.074Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:28:10.077Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:28:10.078Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T02:28:52.476Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:28:59.733Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:28:59.819Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:28:59.821Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:28:59.823Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:28:59.824Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T02:29:36.906Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:29:39.420Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:29:39.623Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:29:39.625Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:29:39.625Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:29:39.626Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T02:30:59.849Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:31:14.148Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:31:14.330Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:31:14.334Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:31:14.335Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a4606ea50bec36fbfe90"),
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$RMgdVDinKLIhx/uOkkcGSevbVZCZkRNazwM5GB64Cp6zz.RrGjji6',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    createdAt: 2022-07-21T00:57:04.345Z,
+    updatedAt: 2022-07-21T00:57:04.345Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:31:14.336Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:31:29.152Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:31:54.712Z'
+}
+{
+  message: 'LOGINNN',
+  level: 'info',
+  timestamp: '2022-07-21T02:31:54.900Z'
+}
+{
+  message: 'SALIO TODO BIEN',
+  level: 'info',
+  timestamp: '2022-07-21T02:31:55.159Z'
+}
+{
+  message: 'Se Ejecuta el serializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:31:55.214Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:32:06.194Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:32:06.356Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:32:06.360Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:32:06.361Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a31e6ea50bec36fbfe88"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$sBs9q26Hhxv/2j0z7i64p.Fd848G6ugmjcWRqIW1YNbvQwGOajcBO',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T00:51:42.051Z,
+    updatedAt: 2022-07-21T00:51:42.051Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:32:06.362Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T02:36:33.134Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:38:01.683Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:38:07.909Z'
+}
+{
+  message: 'LOGINNN',
+  level: 'info',
+  timestamp: '2022-07-21T02:38:08.081Z'
+}
+{
+  message: 'SALIO TODO BIEN',
+  level: 'info',
+  timestamp: '2022-07-21T02:38:08.325Z'
+}
+{
+  message: 'Se Ejecuta el serializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:38:08.405Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:38:25.759Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:38:25.942Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:38:25.943Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:38:25.945Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8a31e6ea50bec36fbfe88"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$sBs9q26Hhxv/2j0z7i64p.Fd848G6ugmjcWRqIW1YNbvQwGOajcBO',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T00:51:42.051Z,
+    updatedAt: 2022-07-21T00:51:42.051Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:38:25.947Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:39:05.945Z'
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T02:39:06.109Z'
+}
+{
+  message: {
+    email: 'leticiazanel@correo.com',
+    password: 'leticiazanel',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:39:06.110Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T02:39:09.310Z'
+}
+{
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        'address.city': 'require',
+        'address.street': 'require',
+        age: 'require',
+        lastName: 'require',
+        firstName: 'require',
+        password: 'require',
+        email: 'require'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {},
+        modify: {},
+        require: {
+          'address.city': true,
+          'address.street': true,
+          age: true,
+          lastName: true,
+          firstName: true,
+          password: true,
+          email: true
+        }
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ],
+      map: [Function (anonymous)]
+    },
+    strictMode: true,
+    op: null,
+    saving: null,
+    '$versionError': null,
+    saveOptions: null,
+    validating: null,
+    validationError: undefined,
+    cachedRequired: {},
+    backup: {
+      activePaths: {
+        modify: {
+          email: true,
+          firstName: true,
+          lastName: true,
+          age: true,
+          admin: true,
+          address: true,
+          createdAt: true,
+          updatedAt: true,
+          password: true
+        },
+        default: { _id: true }
+      },
+      validationError: null,
+      errors: undefined
+    },
+    inserting: true,
+    savedState: {}
+  },
+  '$isNew': false,
+  _doc: {
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  '$errors': undefined,
+  level: 'info',
+  message: null,
+  timestamp: '2022-07-21T02:39:09.312Z'
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T02:40:09.329Z'
+}
+{
+  message: {
+    email: 'nestordanielgomez@gmail.com',
+    password: 'nestordanielgomez',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:40:09.330Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T02:40:13.467Z'
+}
+{
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        'address.city': 'require',
+        'address.street': 'require',
+        age: 'require',
+        lastName: 'require',
+        firstName: 'require',
+        password: 'require',
+        email: 'require'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {},
+        modify: {},
+        require: {
+          'address.city': true,
+          'address.street': true,
+          age: true,
+          lastName: true,
+          firstName: true,
+          password: true,
+          email: true
+        }
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ],
+      map: [Function (anonymous)]
+    },
+    strictMode: true,
+    op: null,
+    saving: null,
+    '$versionError': null,
+    saveOptions: null,
+    validating: null,
+    validationError: undefined,
+    cachedRequired: {},
+    backup: {
+      activePaths: {
+        modify: {
+          email: true,
+          firstName: true,
+          lastName: true,
+          age: true,
+          admin: true,
+          address: true,
+          createdAt: true,
+          updatedAt: true,
+          password: true
+        },
+        default: { _id: true }
+      },
+      validationError: null,
+      errors: undefined
+    },
+    inserting: true,
+    savedState: {}
+  },
+  '$isNew': false,
+  _doc: {
+    email: 'nestordanielgomez@gmail.com',
+    password: '$2b$10$/Kv72q1T66k1NLMRZrSlZOEuwEX33d7DcwPUOns5eAHDEDZGlx0A.',
+    firstName: 'Nestor',
+    lastName: 'Gomez',
+    age: 40,
+    admin: true,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc899b445725d8f6262f"),
+    createdAt: 2022-07-21T02:40:09.541Z,
+    updatedAt: 2022-07-21T02:40:09.541Z
+  },
+  '$errors': undefined,
+  level: 'info',
+  message: null,
+  timestamp: '2022-07-21T02:40:13.469Z'
+}
+{
+  message: 'ENTRE',
+  level: 'info',
+  timestamp: '2022-07-21T02:41:01.745Z'
+}
+{
+  message: {
+    email: 'bautista@correo.com',
+    password: 'bautista',
+    firstName: 'Bautista',
+    lastName: 'Gomez Zanel',
+    age: 18,
+    admin: true,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' }
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:41:01.747Z'
+}
+{
+  message: 'Info SIGNUP',
+  level: 'info',
+  timestamp: '2022-07-21T02:41:05.535Z'
+}
+{
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        'address.city': 'require',
+        'address.street': 'require',
+        age: 'require',
+        lastName: 'require',
+        firstName: 'require',
+        password: 'require',
+        email: 'require'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {},
+        modify: {},
+        require: {
+          'address.city': true,
+          'address.street': true,
+          age: true,
+          lastName: true,
+          firstName: true,
+          password: true,
+          email: true
+        }
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ],
+      map: [Function (anonymous)]
+    },
+    strictMode: true,
+    op: null,
+    saving: null,
+    '$versionError': null,
+    saveOptions: null,
+    validating: null,
+    validationError: undefined,
+    cachedRequired: {},
+    backup: {
+      activePaths: {
+        modify: {
+          email: true,
+          firstName: true,
+          lastName: true,
+          age: true,
+          admin: true,
+          address: true,
+          createdAt: true,
+          updatedAt: true,
+          password: true
+        },
+        default: { _id: true }
+      },
+      validationError: null,
+      errors: undefined
+    },
+    inserting: true,
+    savedState: {}
+  },
+  '$isNew': false,
+  _doc: {
+    email: 'bautista@correo.com',
+    password: '$2b$10$59G5GDwmxfBwax6DaO4K4.XvzXUMPRD/VVvQIziwmEn8XoeyVLd02',
+    firstName: 'Bautista',
+    lastName: 'Gomez Zanel',
+    age: 18,
+    admin: true,
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bcbd9b445725d8f62634"),
+    createdAt: 2022-07-21T02:41:01.970Z,
+    updatedAt: 2022-07-21T02:41:01.970Z
+  },
+  '$errors': undefined,
+  level: 'info',
+  message: null,
+  timestamp: '2022-07-21T02:41:05.536Z'
+}
+{
+  message: 'LOGINNN',
+  level: 'info',
+  timestamp: '2022-07-21T02:41:21.978Z'
+}
+{
+  message: 'SALIO TODO BIEN',
+  level: 'info',
+  timestamp: '2022-07-21T02:41:22.237Z'
+}
+{
+  message: 'Se Ejecuta el serializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:41:22.301Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:41:26.956Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:41:27.562Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:41:27.563Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:41:27.563Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:41:27.566Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:41:59.793Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:42:00.011Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:42:00.013Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:42:00.014Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:42:00.015Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:42:15.424Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:42:15.823Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:42:15.824Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:42:15.824Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:42:15.825Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:42:18.583Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:42:18.742Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:42:18.744Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:42:18.746Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:42:18.747Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:42:46.010Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:42:46.205Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:42:46.206Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:42:46.206Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:42:46.207Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:44:14.686Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:44:14.871Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:44:14.872Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:44:14.872Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:44:14.873Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:44:29.371Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:44:29.546Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:44:29.548Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:44:29.548Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:44:29.549Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:45:12.149Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:45:12.312Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:45:12.313Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:45:12.313Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:45:12.315Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:45:59.873Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:46:00.030Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:46:00.031Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:46:00.031Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:46:00.032Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:46:19.610Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:46:19.783Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:46:19.784Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:46:19.784Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:46:19.787Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:47:36.412Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:48:24.153Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:48:24.323Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:48:24.324Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:48:24.324Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:48:24.327Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T02:48:50.685Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T02:48:50.843Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T02:48:50.844Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T02:48:50.844Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T02:48:50.845Z'
+}
+{
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-07-21T02:48:52.669Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T02:52:07.257Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T02:52:54.816Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T03:01:48.863Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T03:01:48.933Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T03:01:48.935Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T03:01:48.936Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T03:01:48.937Z'
+}
+{
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-07-21T03:01:50.218Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T03:01:59.873Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T03:01:59.961Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T03:01:59.962Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T03:01:59.963Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T03:01:59.966Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T03:02:03.857Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T03:02:03.967Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T03:02:03.969Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T03:02:03.969Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T03:02:03.972Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T03:02:40.988Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T03:02:41.197Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T03:02:41.198Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T03:02:41.199Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T03:02:41.200Z'
+}
+{
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-07-21T03:02:43.174Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T03:04:22.547Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T03:04:22.598Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T03:04:22.599Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T03:04:22.600Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T03:04:22.600Z'
+}
+{
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-07-21T03:04:23.549Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T03:15:20.931Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T03:15:27.327Z'
+}
+{
+  message: false,
+  level: 'info',
+  timestamp: '2022-07-21T03:15:27.330Z'
+}
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T03:15:27.332Z'
+}
+{
+  message: undefined,
+  level: 'info',
+  timestamp: '2022-07-21T03:15:27.333Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T03:15:32.956Z'
+}
+{
+  message: false,
+  level: 'info',
+  timestamp: '2022-07-21T03:15:32.958Z'
+}
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T03:15:32.961Z'
+}
+{
+  message: undefined,
+  level: 'info',
+  timestamp: '2022-07-21T03:15:32.962Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T03:15:39.598Z'
+}
+{
+  message: false,
+  level: 'info',
+  timestamp: '2022-07-21T03:15:39.599Z'
+}
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T03:15:39.600Z'
+}
+{
+  message: undefined,
+  level: 'info',
+  timestamp: '2022-07-21T03:15:39.604Z'
+}
+{
+  message: 'LOGINNN',
+  level: 'info',
+  timestamp: '2022-07-21T03:15:52.198Z'
+}
+{
+  message: 'SALIO TODO BIEN',
+  level: 'info',
+  timestamp: '2022-07-21T03:15:52.387Z'
+}
+{
+  message: 'Se Ejecuta el serializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T03:15:52.564Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T03:15:58.777Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T03:15:58.840Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T03:15:58.843Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T03:15:58.843Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T03:15:58.844Z'
+}
+{
+  message: 'Se Ejecuta el desserializeUser',
+  level: 'info',
+  timestamp: '2022-07-21T03:16:09.310Z'
+}
+{
+  message: 'Is Authenticated',
+  level: 'info',
+  timestamp: '2022-07-21T03:16:09.361Z'
+}
+{ message: true, level: 'info', timestamp: '2022-07-21T03:16:09.362Z' }
+{
+  message: 'req.user',
+  level: 'info',
+  timestamp: '2022-07-21T03:16:09.363Z'
+}
+{
+  message: {
+    address: { street: 'Belgrano 2371', city: 'Reconquista' },
+    _id: new ObjectId("62d8bc4a9b445725d8f6262a"),
+    email: 'leticiazanel@correo.com',
+    password: '$2b$10$f1PqcCv3n.fKkuP2oavMS.xeWb2YKfRDG7Jsz/83NTHT53uPFaiL2',
+    firstName: 'Leticia',
+    lastName: 'Zanel',
+    age: 39,
+    admin: false,
+    createdAt: 2022-07-21T02:39:06.287Z,
+    updatedAt: 2022-07-21T02:39:06.287Z
+  },
+  level: 'info',
+  timestamp: '2022-07-21T03:16:09.364Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T13:03:56.696Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T14:16:00.082Z'
+}
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-07-21T14:45:12.941Z'
+}

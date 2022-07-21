@@ -1,0 +1,763 @@
+{
+	"info": {
+		"_postman_id": "04de676a-cbfe-4db7-87d4-0a415aca18dd",
+		"name": "3era Entrega Proyecto Final",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20246688"
+	},
+	"item": [
+		{
+			"name": "Marcas",
+			"item": [
+				{
+					"name": "localhost:5000/api/brands",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\"name\":\"Maria Codorniu\" }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/brands",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"brands"
+							]
+						},
+						"description": "Post de Marcas de bebidas"
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/brands",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\"name\":\"Septima Obra\" }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/brands",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"brands"
+							]
+						},
+						"description": "Get de Marcas"
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/brands",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\"name\":\"Trumpeter 2\" }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/brands/62d89ac416ea9337efccc927",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"brands",
+								"62d89ac416ea9337efccc927"
+							]
+						},
+						"description": "Borrar una marca"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categorias",
+			"item": [
+				{
+					"name": "localhost:5000/api/categories/62d878feef3617aa3ede6ff0",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"importado\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/categories/62d878feef3617aa3ede6ff0",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"categories",
+								"62d878feef3617aa3ede6ff0"
+							]
+						},
+						"description": "Actualizar Categoria"
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/categories",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\": \"Vinos\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/categories",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"categories"
+							]
+						},
+						"description": "Post de Categorias"
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/categories",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"Whisky\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/categories",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"categories"
+							]
+						},
+						"description": "Post de caterogias"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Varietales",
+			"item": [
+				{
+					"name": "localhost:5000/api/varietals",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\": \"Tinto\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/varietals",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"varietals"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/varietals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/varietals",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"varietals"
+							]
+						},
+						"description": "Get de varietales"
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/varietals",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/varietals/62d8876b564d27d42c3b86f0",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"varietals",
+								"62d8876b564d27d42c3b86f0"
+							]
+						},
+						"description": "Borrar Varietal por Id"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Productos",
+			"item": [
+				{
+					"name": "localhost:5000/api/products",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\"name\":\"Champagne\",\r\n    \"description\": \"Botella 750ml\",\r\n    \"img\":\"./images/vinos/champagne-mariacodorniu-extrabrut.jpg\",\r\n    \"price\":2250,\r\n    \"stock\":50,\r\n    \"categoryId\":\"62d898bedcf905485d42ed1b\",\r\n    \"varietalId\":\"62d89b4416ea9337efccc92e\",\r\n    \"brandId\":\"62d89bc316ea9337efccc932\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/products",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"products"
+							]
+						},
+						"description": "Post de un producto"
+					},
+					"response": [
+						{
+							"name": "localhost:5000/api/products",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Vino Blanco\",\r\n    \"description\": \"Botella 750ml\",\r\n    \"img\": \"./images/vinos/vino-blanco-chardonnay-trumpeter.jpg\",\r\n    \"price\": 1350,\r\n    \"stock\": 50,\r\n    \"categoryId\": \"62d898b6dcf905485d42ed19\",\r\n    \"varietalId\": \"62d8978adcf905485d42ed08\",\r\n    \"brandId\": \"62d89a4716ea9337efccc91e\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:5000/api/products",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"products"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "localhost:5000/api/products",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  { \"email\": \"nestordanielgomez@gmail.com\",\r\n    \"password\": \"nestordanielgomez\",\r\n    \"firstName\": \"Nestor\",\r\n    \"lastName\": \"Gomez\",\r\n    \"age\": 40,\r\n    \"admin\": true,\r\n    \"address\": {\r\n      \"street\": \"Belgrano 2371\",\r\n      \"city\": \"Reconquista\"}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/products",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"products"
+							]
+						},
+						"description": "Listar todos los productos"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "localhost:5000/api/auth/signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"bautista@correo.com\",\r\n    \"password\": \"bautista\",\r\n    \"firstName\": \"Bautista\",\r\n    \"lastName\": \"Gomez Zanel\",\r\n    \"age\": 18,\r\n    \"admin\": true,\r\n    \"address\": {\r\n        \"street\": \"Belgrano 2371\",\r\n        \"city\": \"Reconquista\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/auth/signup",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"auth",
+								"signup"
+							]
+						},
+						"description": "Crear Usuario "
+					},
+					"response": [
+						{
+							"name": "localhost:5000/api/auth/signup",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"nestordanielgomez@gmail.com\",\r\n    \"password\": \"nestordanielgomez\",\r\n    \"firstName\": \"Nestor\",\r\n    \"lastName\": \"Gomez\",\r\n    \"age\": 40,\r\n    \"admin\": true,\r\n    \"address\": {\r\n        \"street\": \"Belgrano 2371\",\r\n        \"city\": \"Reconquista\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:5000/api/auth/signup",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"auth",
+										"signup"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "localhost:5000/api/auth/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"leticiazanel@correo.com\",\r\n    \"password\": \"leticiazanel\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/auth/login",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						},
+						"description": "Login del ususario ya creado previamente"
+					},
+					"response": [
+						{
+							"name": "localhost:5000/api/auth/signup",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"nestordanielgomez@gmail.com\",\r\n    \"password\": \"nestordanielgomez\",\r\n    \"firstName\": \"Nestor\",\r\n    \"lastName\": \"Gomez\",\r\n    \"age\": 40,\r\n    \"admin\": true,\r\n    \"address\": {\r\n        \"street\": \"Belgrano 2371\",\r\n        \"city\": \"Reconquista\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:5000/api/auth/signup",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"auth",
+										"signup"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "localhost:5000/api/auth/logout",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"leticiazanel@correo.com\",\r\n    \"password\": \"leticiazanel\",\r\n    \"firstName\": \"Leticia\",\r\n    \"lastName\": \"Zanel\",\r\n    \"age\": 39,\r\n    \"admin\": false,\r\n    \"address\": {\r\n        \"street\": \"Belgrano 2371\",\r\n        \"city\": \"Reconquista\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/auth/logout",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"auth",
+								"logout"
+							]
+						},
+						"description": "Desloguearse"
+					},
+					"response": [
+						{
+							"name": "localhost:5000/api/auth/signup",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"nestordanielgomez@gmail.com\",\r\n    \"password\": \"nestordanielgomez\",\r\n    \"firstName\": \"Nestor\",\r\n    \"lastName\": \"Gomez\",\r\n    \"age\": 40,\r\n    \"admin\": true,\r\n    \"address\": {\r\n        \"street\": \"Belgrano 2371\",\r\n        \"city\": \"Reconquista\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:5000/api/auth/signup",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"auth",
+										"signup"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Carritos",
+			"item": [
+				{
+					"name": "localhost:5000/api/cart",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productId\":\"62d89a0216ea9337efccc91a\",\r\n    \"amount\":5\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/cart",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"cart"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "localhost:5000/api/auth/signup",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"nestordanielgomez@gmail.com\",\r\n    \"password\": \"nestordanielgomez\",\r\n    \"firstName\": \"Nestor\",\r\n    \"lastName\": \"Gomez\",\r\n    \"age\": 40,\r\n    \"admin\": true,\r\n    \"address\": {\r\n        \"street\": \"Belgrano 2371\",\r\n        \"city\": \"Reconquista\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:5000/api/auth/signup",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"auth",
+										"signup"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "localhost:5000/api/cart/add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productId\":\"62d89be516ea9337efccc934\",\r\n    \"amount\":7\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/cart/add",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"cart",
+								"add"
+							]
+						},
+						"description": "Agrego un producto al carrito"
+					},
+					"response": [
+						{
+							"name": "localhost:5000/api/cart/add",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productId\":\"62d89a0216ea9337efccc91a\",\r\n    \"amount\":5\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:5000/api/cart/add",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"cart",
+										"add"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "localhost:5000/api/cart/order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productId\":\"62d89a0216ea9337efccc91a\",\r\n    \"amount\":5\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/cart/order",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"cart",
+								"order"
+							]
+						},
+						"description": "Crear orden de compra"
+					},
+					"response": [
+						{
+							"name": "localhost:5000/api/auth/signup",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"nestordanielgomez@gmail.com\",\r\n    \"password\": \"nestordanielgomez\",\r\n    \"firstName\": \"Nestor\",\r\n    \"lastName\": \"Gomez\",\r\n    \"age\": 40,\r\n    \"admin\": true,\r\n    \"address\": {\r\n        \"street\": \"Belgrano 2371\",\r\n        \"city\": \"Reconquista\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:5000/api/auth/signup",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"auth",
+										"signup"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		}
+	]
+}
