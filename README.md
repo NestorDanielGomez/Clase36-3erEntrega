@@ -232,6 +232,7 @@ Listar todos los productos
 
 Crear Usuario
 
+<img src="./public/LlegaCorreo.jpg" />
 ### Method: POST
 
 > ```
@@ -354,6 +355,7 @@ Agrego un producto al carrito
 ## End-point: localhost:5000/api/cart/order
 
 Crear orden de compra
+<img src="./public/LlegaTwilio.jpg" />
 
 ### Method: POST
 
