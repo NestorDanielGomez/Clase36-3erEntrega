@@ -4450,3 +4450,8 @@
   level: 'info',
   timestamp: '2022-07-21T14:51:44.228Z'
 }
+{
+  message: 'Servidor escuchando en el puerto 5000',
+  level: 'info',
+  timestamp: '2022-08-04T18:55:54.489Z'
+}
